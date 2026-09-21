@@ -13,6 +13,15 @@ class Geeks{
         System.out.println("Temperature:" +temperature);
 
 
+        //short
+        short students = 100;
+        short temp = -200;
+        System.out.println("Student:" +students);
+        System.out.println("Temp:" +temp);
+        
+        
+
+
 
     }
 }
