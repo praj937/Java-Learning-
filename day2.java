@@ -9,16 +9,24 @@ class Geeks{
         //Byte
         byte age = 25;
         byte temperature = -10;
-        System.out.println("Age:" +age);
-        System.out.println("Temperature:" +temperature);
+        System.out.println("Age: " +age);
+        System.out.println("Temperature: " +temperature);
 
 
         //short
         short students = 100;
         short temp = -200;
-        System.out.println("Student:" +students);
-        System.out.println("Temp:" +temp);
-        
+        System.out.println("Student: " +students);
+        System.out.println("Temp: " +temp);
+
+        //int
+        int population = 20000;
+        int distance = 350;
+        System.out.println("Population: " +population);
+        System.out.println("Distance: " +distance);
+
+
+
         
 
 
