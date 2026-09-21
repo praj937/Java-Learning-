@@ -31,10 +31,16 @@ class Geeks{
         System.out.println("WorldPopulation: " +worldPopulation);
         System.out.println("Light Years: " +lightYears);
 
-
-
-
+        //float 
+        float pi=3.14f;
+        float gravity=9.81f;
+        System.out.println("Pi: " +pi);
+        System.out.println("Gravity: " +gravity);
         
+
+
+
+
 
 
 
