@@ -25,6 +25,13 @@ class Geeks{
         System.out.println("Population: " +population);
         System.out.println("Distance: " +distance);
 
+        //long
+        long worldPopulation = 123456789L;
+        long lightYears = 98745621384456L;
+        System.out.println("WorldPopulation: " +worldPopulation);
+        System.out.println("Light Years: " +lightYears);
+
+
 
 
         
