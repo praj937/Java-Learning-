@@ -38,6 +38,32 @@ class Geeks{
         System.out.println("Gravity: " +gravity);
         
 
+        //double
+        double Pi = 3.141592653589793;
+        double avogadro = 6.02214076e23;
+        System.out.println("Pi: " + Pi);
+        System.out.println("Avogadro's Number: " + avogadro);
+
+
+        //char
+        char grade = 'A';
+        char symbol = '$';
+        System.out.println("Grade: " + grade);
+        System.out.println("Symbol: " + symbol);
+
+
+        //string
+        String name = "Geek1";
+        String message = "Welcome to Java";
+        System.out.println("Name: " + name);
+        System.out.println("Message: " + message);
+
+        //array
+        int[] numbers = {1, 2, 3, 4, 5};
+        String[] names = {"Geek1", "Geek2", "Geek3"};
+        System.out.println("First number: " + numbers[0]);
+        System.out.println("Second name: " + names[1]);
+
 
 
 
