@@ -90,6 +90,15 @@ class Geeks{
         //Interface
         Animals Dog=new Dog();
         Dog.sound();
+
+        //keywords
+        final int z=10;
+        if(z>10){
+            System.out.println("Failed");
+         }
+        else{
+            System.out.println("Successful demonstration" + " of keywords"); 
+        }
         
         
         
