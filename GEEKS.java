@@ -8,6 +8,14 @@ class car{
     }
 
 }
+interface Animals{
+    void sound();
+}
+class Dog implements Animals{
+    public void sound(){
+        System.out.println("Dog sound : Woof");
+    }
+}
 class Geeks{
     public static void main(String[] args){
         //Boolean
@@ -78,6 +86,12 @@ class Geeks{
         car mycar= new car("Honda",2005);
         System.out.println("Car Model: "+mycar.model);
         System.out.println("Car Year:" +mycar.year);
+
+        //Interface
+        Animals Dog=new Dog();
+        Dog.sound();
+        
+        
         
 
     }
