@@ -1,3 +1,13 @@
+class car{
+    String model;
+    int year;
+
+    car(String model , int year){
+        this.model =model;
+        this.year=year;
+    }
+
+}
 class Geeks{
     public static void main(String[] args){
         //Boolean
@@ -64,11 +74,11 @@ class Geeks{
         System.out.println("First number: " + numbers[0]);
         System.out.println("Second name: " + names[1]);
 
-
-
-
-
-
+        //object
+        car mycar= new car("Honda",2005);
+        System.out.println("Car Model: "+mycar.model);
+        System.out.println("Car Year:" +mycar.year);
+        
 
     }
 }
